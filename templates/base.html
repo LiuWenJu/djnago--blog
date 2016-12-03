@@ -10,19 +10,32 @@
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
     <link rel="stylesheet" href="http://picturebag.qiniudn.com/blog.css">
 </head>
+
 <body>
 <div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
         <div class="header">
-            <h1 class="brand-title">Liuwj's Blog</h1>
+            <h1 class="brand-title"><a href="{% url "home" %}">Liuwj' Blog</a></h1>
             <h2 class="brand-tagline">Life is short,I use python.</h2>
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a class="pure-button" href="https://github.com/LiuWenJu">Github</a>
+                        <a class="button-success pure-button" href="/">主页</a>
                     </li>
                     <li class="nav-item">
-                        <a class="pure-button" href="http://www.weibo.com/u/3235421510?is_all=1">Weibo</a>
+                        <a class="button-success pure-button" href="/">归档</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://github.com/LiuWenJu/djnago--blog">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button-error pure-button" href="http://www.weibo.com/3235421510/profile?topnav=1&wvr=6&is_all=1">Weibo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button-success pure-button" href="/">专题</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button-success pure-button" href="/">About Me</a>
                     </li>
                 </ul>
             </nav>
